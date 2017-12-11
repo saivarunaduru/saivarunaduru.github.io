@@ -3,4 +3,4 @@
 
 * Datesets such as iris flower species, boston housing prices, imdb sentiment analysis, cifar 10 data set for object identification, MNIST have been used for construction of MLPs.
 
-*CNNs have also been explored
+* CNNs have also been explored
