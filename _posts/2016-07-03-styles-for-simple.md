@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Styles at a glance
+title: About Me
 category: jekyll 
-description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
+description: My name is Sai Varun Aduru and I am a Process Systems and Anayltics Engineer at SUEZ Water Technologies and Solutions. I hold a Masters' degree in Chemical Engineering and my prior reasearch experience is in domains of Process Control and Machine learning.
 ---
 
 Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
