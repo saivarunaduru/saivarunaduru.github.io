@@ -1,62 +1,64 @@
 ---
 layout: default
-title: Home
 ---
 
-<div class="home">
-  <div class="post-list">
-
-    {% for post in site.posts limit:5%}
-
-    <article class="post_card post">
-      <header class="post_header">
-        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
-      </header>
-      <div class="post_excerpt">
-        <p>
-          {% if post.description %}
-          {{ post.description}}
-          {% else %}
-          {{ post.excerpt }}
-          {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
-        </p> 
-      </div>
-      <footer class="post_meta">
 
 
-        {% if post.location %}
-        <span class="author-location">
-          <div data-icon="ei-location"></div>
-          <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }}</a>
-        </span>
-        {% endif %}
-        <!--
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
-        -->
+<!-- One -->
+    <section id="one">
+        <div class="container">
+            <header class="major">
+                <h2>Read Only</h2>
+                <p>Just an incredibly simple responsive site<br />
+                template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+            </header>
+            <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+        </div>
+    </section>
 
-        <!--
-        {% if post.author %}
-        <span class="author_meta">
-          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
-          <span>David Lin</span>
-        </span>
-        {% endif %}
-        -->
+<!-- Two -->
+    <section id="two">
+        <div class="container">
+            <h3>Things I Can Do</h3>
+            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+            <ul class="feature-icons">
+                <li class="fa-code">Write all the code</li>
+                <li class="fa-cubes">Stack small boxes</li>
+                <li class="fa-book">Read books and stuff</li>
+                <li class="fa-coffee">Drink much coffee</li>
+                <li class="fa-bolt">Lightning bolt</li>
+                <li class="fa-users">Shadow clone technique</li>
+            </ul>
+        </div>
+    </section>
 
-        <!--p class="readmore">
-          <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
-        </p-->
-      </footer>
-      <hr/>
-    </article>
-    {% endfor %}
-
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
-  </div>
-</div>
+<!-- Three -->
+    <section id="three">
+        <div class="container">
+            <h3>A Few Accomplishments</h3>
+            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+            <div class="features">
+                <article>
+                    <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h4>Possibly broke spacetime</h4>
+                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h4>Terraformed a small moon</h4>
+                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                    </div>
+                </article>
+                <article>
+                    <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+                    <div class="inner">
+                        <h4>Snapped dark matter in the wild</h4>
+                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>

@@ -1,20 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  {% include head.html %}
-  <body>
-    <div class="page-content">
-      <div class="container">
-        <div class="three columns">
-          {% include header.html %}
-        </div>
+    {% include /head.html %}
+    <body>
+        <div id="wrapper">
+        {% include /header.html %}
 
-        <div class="nine columns" style="z-index:100;">
-          <div class="wrapper">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-      {% include footer.html %} 
-    </div>
-  </body>
+            <!-- Main -->
+            <div id="main">
+                {{ content }}
+
+            </div>
+            {% include /footer.html %}
+		</div>
+	</body>
 </html>
