@@ -1,6 +1,3 @@
-------------
-layout: post 
-------------
 1. Machine Learning models for predicting molecular properties,
 _Beck Research Lab, University of Washington, Dec 2017_ 
 * Performed normalization, feature selection (PCA), and built machine learning
