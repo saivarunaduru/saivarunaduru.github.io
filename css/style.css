@@ -1063,7 +1063,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: auto;/*15em;*/
+		height: 25em;/*15em;*/
 		width: 100%;
 	}
 
